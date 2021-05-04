@@ -1,3 +1,16 @@
-p {
-    color: rgb(13, 33, 54)
+* {
+    /* comentario */
+    background-color: rgb(42, 44, 60);
+    color: rgb(189, 189, 189);
+    font-family: 'Courier New';
+
+}
+
+h1 {
+    background-color: rgb(58, 57, 117);
+    border-style: solid;
+    padding: 1%;
+    width: 80%;
+    margin: 3%;
+    font-size: 5vw;
 }
