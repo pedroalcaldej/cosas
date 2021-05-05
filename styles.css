@@ -1,16 +1,41 @@
-* {
-    /* comentario */
+body {
     background-color: rgb(42, 44, 60);
-    color: rgb(189, 189, 189);
-    font-family: 'Zen Dots', cursive;
-
+    color: rgb(190, 190, 190);
+    font-family: 'Courier New', monospace;
+    margin: 3%;
 }
 
-h1 {
+.foto {
+    height: 15%;
+    max-height: 100px;
+    border-radius: 100%;
+    border-style: solid;
+    float: right;
+}
+
+.cuadro {
     background-color: rgb(58, 57, 117);
+    font-family: 'Zen Dots', cursive;
     border-style: solid;
     padding: 1%;
     width: 80%;
-    margin: 3%;
-    font-size: 5vw;
+    margin: 3% 0;
 }
+
+.form {
+    line-height: 2;
+    text-align: center;
+    max-width: 300px;
+}
+
+input[type=text], input[type=email] {
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+a:link {color:  rgb(190, 190, 190);}
+a:visited {color:  rgb(190, 190, 190);}
+a:hover {color:rgb(30, 120, 255)}
+
+.fab {font-size: 30px;}

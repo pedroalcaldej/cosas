@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang='es'>
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
-    <title>Pedro</title>
-  </head>
-  <body>
-    <h1>Hola,<br>Soy Pedro Alcalde</h1>
-    <!-- comentario -->
-    <p>Párrafo. PárrafoPárrafoPárrafo, PárrafoPárrafoPárrafoPárrafo.</p>
-    <p>Párrafo. PárrafoPárrafoPárrafo, PárrafoPárrafoPárrafoPárrafo.</p>
-    <a href='https://github.com/pedroalcaldej'>GitHub</a>
-    <br>
-    <img src='paine.jpg' alt='foto de los cuernos' style="width:40%;">
-    <hr>
-    <h2>Título segundo</h2>
-    <button type="button" onclick="alert('hola soy pedro')">boton</button>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/bb0d3150e1.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="smile.png" type="image/icon type">
+        <title>Pedro</title>
+    </head>
+    <body>
+        <div class="cuadro">
+            <img class="foto" src='foto perfil.jpg'>
+            <h1>Hola,<br>Soy Pedro Alcalde</h1>
+        </div>
+        <!-- comentario -->
+        <a href='https://github.com/pedroalcaldej'><i class="fab fa-github"></i>GitHub</a>
+        <p>Párrafo. PárrafoPárrafoPárrafo, PárrafoPárrafoPárrafoPárrafo.</p>
+        <p>Párrafo. PárrafoPárrafoPárrafo, PárrafoPárrafoPárrafoPárrafo.</p>
+        <br>
+        <hr>
+        <h2>Título segundo</h2>
+        <button type="button" onclick="alert('hola soy pedro')">boton</button>
+        <form class="cuadro form">
+            <h1>Contacto</h1>
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" placeholder="Pedro" pattern="[A-Za-z]" required>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="palcalde02@gmail.com" required>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
   </body>
 </html>
